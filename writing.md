@@ -1,52 +1,75 @@
-# Writing Style
+# Writing style
 
 ## Capitalization
 
-[![Rationale](https://img.shields.io/badge/APA-Title_case_capitalization-000)](https://github.com/style-guides/Markdown/#spelling)
+[![Rationale](https://img.shields.io/badge/AP-Capitalization-eb483b)](https://libguides.csusb.edu/APstylebook/capitalization/)
 
-### Title-case: Document title & figure title
+### Headings: Sentence case
 
-Capitalize **first letter of each word** for titles of documents, tables, and
-figures.
+Capitalize **first letter of each word** for all headings.
 
 **Before**
 
 ```md
-# Lorem ipsum
-
-![Figure 1](path/to/figure)<br><small>Figure 1 &ndash; use-case diagram</small>
+# Man Bites Dog
 ```
 
 **After**
 
 ```md
-# Lorem Ipsum
-
-![Figure 1](path/to/figure)<br><small>Figure 1 &ndash; Use-case Diagram</small>
+# Man bites dog
 ```
 
-### Sentence-case: Subtitle & table headings
+### Time: Lower case
 
-Capitalize **first letter of the first word** for everything else.
+Use **lower case** to define clock time.
 
 **Before**
 
 ```md
-lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-| Foo Bar | Baz Qux |
-| --- | --- |
-| ... | ... |
+At 8 A.M. the meeting began.
 ```
 
 **After**
 
 ```md
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+At 8 a.m. the meeting began.
+```
 
-| Foo bar | Baz qux |
-| --- | --- |
-| ... | ... |
+## Numbers
+
+[![Rationale](https://img.shields.io/badge/AP-Numbers-eb483b)](https://libguides.csusb.edu/APstylebook/numbers/)
+
+### Numerals 1-10: Spell
+
+Spell out **one to nine** and use **numerals** for 10 and above.
+
+**Before**
+
+```md
+The two cats were chasing at least 15 mice.
+```
+
+**After**
+
+```md
+The 2 cats were chasing at least 15 mice.
+```
+
+### Dates and addresses: Numerals
+
+Use **numerals** for dates and street addresses.
+
+**Before**
+
+```md
+The meeting is scheduled on Oct. 31, 2023 at 5th Avenue.
+```
+
+**After**
+
+```md
+The meeting is scheduled on Oct. 31, 2023 at 5th Avenue.
 ```
 
 ## Punctuation

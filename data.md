@@ -1,6 +1,6 @@
-# Data Format
+# Data format
 
-## Encoding: Uppercase
+## Encoding: Upper case
 
 [![Rationale](https://img.shields.io/badge/Wikipedia-UTF8-000)](https://en.wikipedia.org/wiki/UTF-8)
 
@@ -10,7 +10,7 @@
 <meta charset="UTF-8">
 ```
 
-## Color code: Lowercase
+## Color code: Lower case
 
 [![Rationale](https://img.shields.io/badge/Wikipedia-Hexadecimal-000)](https://en.wikipedia.org/wiki/Hexadecimal)
 

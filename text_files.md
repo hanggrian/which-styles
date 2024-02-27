@@ -1,4 +1,4 @@
-# Text Files Format
+# Text files format
 
 ## Trailing whitespace: Trim
 
