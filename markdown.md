@@ -6,8 +6,8 @@
 
 [![Rationale](https://img.shields.io/badge/GitHub-Headings-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#headings)
 
-**ATX headings `#`, `##`, `###`, `####`, `#####`, and `######`** are preferred
-over Setext headings. Setext headings are long and do not support over 2 levels
+ATX headings `#`, `##`, `###`, `####`, `#####`, and `######` are preferred over
+Setext headings. Setext headings are long and do not support over 2 levels
 of headings.
 
 **Before**
@@ -27,8 +27,8 @@ Lorem ipsum
 
 [![Rationale](https://img.shields.io/badge/GitHub-Styling_text-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#styling-text)
 
-**Use `*` and `**`** to highlight text. The optional symbols `_` and `__` can as
-a subsequent highlighter.
+Stylize text with asterisks `*` and `**`. The underscores `_` and `__` can as a
+subsequent highlighter.
 
 **Before**
 
@@ -46,8 +46,8 @@ _**Lorem ipsum** dolor sit amet,_ consectetur adipiscing elit.
 
 [![Rationale](https://img.shields.io/badge/Pandoc-Block_quotations-080808)](https://pandoc.org/chunkedhtml-demo/8.4-block-quotations.html)
 
-**Use single `>`** to create blockquotes, not the subsequent lines. However,
-list items and tables rows are exceptions.
+Use single greater-than `>` to create blockquotes, not the subsequent lines.
+However, list items and tables rows are exceptions.
 
 **Before**
 
@@ -67,8 +67,8 @@ list items and tables rows are exceptions.
 
 [![Rationale](https://img.shields.io/badge/GitHub-Quoting_code-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#quoting-code)
 
-**Use backticks ` ``` `** to create fenced code blocks, not the optional 4
-spaces indentation.
+Use backticks ` ``` ` to create fenced code blocks, not the optional 4 spaces
+indentation.
 
 **Before**
 
@@ -94,8 +94,8 @@ git commit
 
 #### Unordered list: Hyphen
 
-**Use hyphens `-`** to create unordered lists and nested lists. Asterisk is
-already associated with highlights, and plus is not as common.
+Use hyphens `-` to create unordered lists and nested lists. Asterisk is already
+associated with highlights, and plus is not as common.
 
 **Before**
 
@@ -113,7 +113,7 @@ already associated with highlights, and plus is not as common.
 
 #### Ordered list: Period
 
-**Use period `.`** and growing numbers to create ordered lists.
+Use growing number followed by a period `.` to create ordered lists.
 
 ```md
 1) Foo
@@ -133,8 +133,8 @@ already associated with highlights, and plus is not as common.
 
 #### Table cell: Wrap
 
-Always wrap the cell content and **pad with a space on each end**. Column
-alignment line should be **3 dashes** and optional colon `:`.
+Always wrap the cell content and pad with a space on each end. Column alignment
+line should be 3 dashes and optional colon `:`.
 
 **Before**
 
@@ -178,11 +178,11 @@ Foo | Bar | Baz
 
 ### Line length: 80
 
-[![Rationale](https://img.shields.io/badge/Google-Links-4285F4)](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md#links)
+[![Rationale](https://img.shields.io/badge/Google-Links-4285f4)](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md#links)
 
-Keep characters in a line to a maximum of **80 characters.**
+Keep characters in a line to a maximum of 80 characters.
 
-Separate a link to a new line **only if the text (not the link)** exceeds 80
+Separate a link to a new line only if the text (not the link) exceeds 80
 characters. In the example below, a paragraph is not split because `[hyperlink]`
 can still fit in the first column even though the link is more than 80
 characters.
@@ -204,8 +204,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. [hyperlink](path/to/hyp
 
 [![Rationale](https://img.shields.io/badge/Commonmark-Spacing-fff)](https://github.com/style-guides/Markdown/#spacing)
 
-Separate headings, paragraph, and everything in between with **1 blank line**.
-Extra lines are ignored when rendered.
+Separate headings, paragraph, and everything in between with 1 blank line. Extra
+lines are ignored when rendered.
 
 **Before**
 
@@ -226,7 +226,7 @@ Lorem ipsum dolor sit amet.
 
 [![Rationale](https://img.shields.io/badge/GitHub-Nested_lists-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#nested-lists)
 
-Do not use fixed indentation, **align the content** with the previous line.
+Do not use fixed indentation, align the content with the previous line.
 
 **Before**
 

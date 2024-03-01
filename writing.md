@@ -6,7 +6,7 @@
 
 ### Headings: Sentence case
 
-Capitalize **first letter of each word** for all headings.
+Capitalize first letter of each word for all headings.
 
 **Before**
 
@@ -20,9 +20,9 @@ Capitalize **first letter of each word** for all headings.
 # Man bites dog
 ```
 
-### Time: Lower case
+### Time: Lowercase
 
-Use **lower case** to define clock time.
+Use lowercase to define clock time.
 
 **Before**
 
@@ -42,7 +42,7 @@ At 8 a.m. the meeting began.
 
 ### Numerals 1-10: Spell
 
-Spell out **one to nine** and use **numerals** for 10 and above.
+Spell out one to nine and use numerals for 10 and above.
 
 **Before**
 
@@ -58,7 +58,7 @@ The 2 cats were chasing at least 15 mice.
 
 ### Dates and addresses: Numerals
 
-Use **numerals** for dates and street addresses.
+Use numerals for dates and street addresses.
 
 **Before**
 
@@ -78,8 +78,8 @@ The meeting is scheduled on Oct. 31, 2023 at 5th Avenue.
 
 ### Serial comma: Never
 
-Serial comma **is not placed** after the penultimate term. Exceptionally, comma
-can be placed when combining two separate contexts.
+Serial comma is not placed after the penultimate term. Exceptionally, comma can
+be placed when combining two separate contexts.
 
 **Before**
 
@@ -99,8 +99,8 @@ I was breastfed, but my family members were fed formula.
 
 ### Emphasize punctuation: Always
 
-When highlighting a word or phrase with adjacent punctuations, **also highlight
-the punctuations.**
+When highlighting a word or phrase with adjacent punctuations, also highlight
+the punctuations.
 
 **Before**
 
@@ -116,7 +116,7 @@ the punctuations.**
 
 ### Punctuate list item: Sentence-only
 
-Punctuate list items with a period **only if** they are complete sentences.
+Punctuate list items with a period only if they are complete sentences.
 
 **Before**
 
