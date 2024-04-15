@@ -1,12 +1,8 @@
 # Writing style
 
-## Capitalization
+### Header letter: Sentence case
 
-[![Rationale](https://img.shields.io/badge/AP-Capitalization-eb483b)](https://libguides.csusb.edu/APstylebook/capitalization/)
-
-### Headings: Sentence case
-
-Capitalize first letter of each word for all headings.
+Capitalize the first letter of the first word and proper nouns in headings.
 
 **Before**
 
@@ -20,27 +16,7 @@ Capitalize first letter of each word for all headings.
 # Man bites dog
 ```
 
-### Time: Lowercase
-
-Use lowercase to define clock time.
-
-**Before**
-
-```md
-At 8 A.M. the meeting began.
-```
-
-**After**
-
-```md
-At 8 a.m. the meeting began.
-```
-
-## Numbers
-
-[![Rationale](https://img.shields.io/badge/AP-Numbers-eb483b)](https://libguides.csusb.edu/APstylebook/numbers/)
-
-### Numerals 1-10: Spell
+### Spell number: 1-10
 
 Spell out one to nine and use numerals for 10 and above.
 
@@ -56,25 +32,48 @@ The two cats were chasing at least 15 mice.
 The 2 cats were chasing at least 15 mice.
 ```
 
-### Dates and addresses: Numerals
+## Punctuation
 
-Use numerals for dates and street addresses.
+### Emphasize punctuation: Always
+
+When highlighting a word or phrase with adjacent punctuations, also highlight
+the punctuations.
 
 **Before**
 
 ```md
-The meeting is scheduled on Oct. 31, 2023 at 5th Avenue.
+**Lorem ipsum**, dolor sit amet.
 ```
 
 **After**
 
 ```md
-The meeting is scheduled on Oct. 31, 2023 at 5th Avenue.
+**Lorem ipsum,** dolor sit amet.
 ```
 
-## Punctuation
+### Punctuate list item: Only sentence
 
-[![Rationale](https://img.shields.io/badge/AP-Punctuation-eb483b)](https://libguides.csusb.edu/APstylebook/punctuation/)
+Punctuate list items with a period only if they are complete sentences.
+
+**Before**
+
+```md
+- Lorem ipsum, dolor sit amet
+- Consectetur adipiscing elit
+
+1. Foo.
+1. Bar.
+```
+
+**After**
+
+```md
+- Lorem ipsum, dolor sit amet.
+- Consectetur adipiscing elit.
+
+1. Foo
+1. Bar
+```
 
 ### Serial comma: Never
 
@@ -95,45 +94,4 @@ I was breastfed but my family members were fed formula.
 Science, math, and reading and writing.
 
 I was breastfed, but my family members were fed formula.
-```
-
-### Emphasize punctuation: Always
-
-When highlighting a word or phrase with adjacent punctuations, also highlight
-the punctuations.
-
-**Before**
-
-```md
-**Lorem ipsum**, dolor sit amet.
-```
-
-**After**
-
-```md
-**Lorem ipsum,** dolor sit amet.
-```
-
-### Punctuate list item: Sentence-only
-
-Punctuate list items with a period only if they are complete sentences.
-
-**Before**
-
-```md
-- Lorem ipsum, dolor sit amet
-- Consectetur adipiscing elit
-
-1. Foo.
-2. Bar.
-```
-
-**After**
-
-```md
-- Lorem ipsum, dolor sit amet.
-- Consectetur adipiscing elit.
-
-1. Foo
-2. Bar
 ```

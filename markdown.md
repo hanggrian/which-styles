@@ -1,50 +1,6 @@
 # Markdown style
 
-## Elements
-
-### Headings: ATX
-
-[![Rationale](https://img.shields.io/badge/GitHub-Headings-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#headings)
-
-ATX headings `#`, `##`, `###`, `####`, `#####`, and `######` are preferred over
-Setext headings. Setext headings are long and do not support over 2 levels
-of headings.
-
-**Before**
-
-```md
-Lorem ipsum
-===========
-```
-
-**After**
-
-```md
-# Lorem Ipsum
-```
-
-### Emphasis: Asterisk
-
-[![Rationale](https://img.shields.io/badge/GitHub-Styling_text-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#styling-text)
-
-Stylize text with asterisks `*` and `**`. The underscores `_` and `__` can as a
-subsequent highlighter.
-
-**Before**
-
-```md
-***Lorem ipsum** dolor sit amet,* consectetur adipiscing elit.
-```
-
-**After**
-
-```md
-_**Lorem ipsum** dolor sit amet,_ consectetur adipiscing elit.
-```
-
-### Blockquote: Lazy
-
-[![Rationale](https://img.shields.io/badge/Pandoc-Block_quotations-080808)](https://pandoc.org/chunkedhtml-demo/8.4-block-quotations.html)
+### Blockquote style: Lazy
 
 Use single greater-than `>` to create blockquotes, not the subsequent lines.
 However, list items and tables rows are exceptions.
@@ -63,9 +19,24 @@ However, list items and tables rows are exceptions.
   consectetur adipiscing elit.
 ```
 
-### Fenced code: Backticks
+### Emphasis style: Asterisk
 
-[![Rationale](https://img.shields.io/badge/GitHub-Quoting_code-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#quoting-code)
+Stylize text with asterisks `*` and `**`. The underscores `_` and `__` can as a
+subsequent highlighter.
+
+**Before**
+
+```md
+***Lorem ipsum** dolor sit amet,* consectetur adipiscing elit.
+```
+
+**After**
+
+```md
+_**Lorem ipsum** dolor sit amet,_ consectetur adipiscing elit.
+```
+
+### Fenced code style: Backticks
 
 Use backticks ` ``` ` to create fenced code blocks, not the optional 4 spaces
 indentation.
@@ -88,11 +59,44 @@ git commit
 ´´´
 ```
 
-### Lists
+### Header style: ATX
 
-[![Rationale](https://img.shields.io/badge/GitHub-Lists-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#lists)
+ATX headings `#`, `##`, `###`, `####`, `#####`, and `######` are preferred over
+Setext headings. Setext headings are long and do not support over 2 levels
+of headings.
 
-#### Unordered list: Hyphen
+**Before**
+
+```md
+Lorem ipsum
+===========
+```
+
+**After**
+
+```md
+# Lorem Ipsum
+```
+
+## Lists
+
+### Ordered list style: Lazy period
+
+Use growing number followed by a period `.` to create ordered lists.
+
+```md
+1) Foo
+2) Bar
+```
+
+**After**
+
+```md
+1. Foo
+1. Bar
+```
+
+### Unordered list style: Hyphen
 
 Use hyphens `-` to create unordered lists and nested lists. Asterisk is already
 associated with highlights, and plus is not as common.
@@ -111,27 +115,29 @@ associated with highlights, and plus is not as common.
 - Bar
 ```
 
-#### Ordered list: Period
+## Table
 
-Use growing number followed by a period `.` to create ordered lists.
+### Optional table pipe: Never
+
+Do not use the optional pipe `|` at the beginning and end of the table.
+
+**Before**
 
 ```md
-1) Foo
-1) Bar
+| Column 1 | Column 2 | Column 3 |
+| --- | --- | --- |
+| Foo | Bar | Baz |
 ```
 
 **After**
 
 ```md
-1. Foo
-2. Bar
+Column 1 | Column 2 | Column 3
+--- | --- | ---
+Foo | Bar | Baz
 ```
 
-### Table
-
-[![Rationale](https://img.shields.io/badge/GitHub-Creating_a_table-181717)](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables/#creating-a-table)
-
-#### Table cell: Wrap
+### Wrap table cell: Always
 
 Always wrap the cell content and pad with a space on each end. Column alignment
 line should be 3 dashes and optional colon `:`.
@@ -152,33 +158,9 @@ line should be 3 dashes and optional colon `:`.
 | Foo | Bar |
 ```
 
-#### Table borders: Always
-
-Use pipes `|` at each end of the cell for readability. When word wrapping is
-enabled, it is difficult to see which cell belong to which row without the
-pipes.
-
-**Before**
-
-```md
-Column 1 | Column 2 | Column 3
---- | --- | ---
-Foo | Bar | Baz
-```
-
-**After**
-
-```md
-| Column 1 | Column 2 | Column 3 |
-| --- | --- | --- |
-| Foo | Bar | Baz |
-```
-
 ## Formatting
 
-### Line length: 80
-
-[![Rationale](https://img.shields.io/badge/Google-Links-4285f4)](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md#links)
+### Max line length: 80
 
 Keep characters in a line to a maximum of 80 characters.
 
@@ -202,8 +184,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. [hyperlink](path/to/hyp
 
 ### Vertical spacing: 1
 
-[![Rationale](https://img.shields.io/badge/Commonmark-Spacing-fff)](https://github.com/style-guides/Markdown/#spacing)
-
 Separate headings, paragraph, and everything in between with 1 blank line. Extra
 lines are ignored when rendered.
 
@@ -222,9 +202,7 @@ Lorem ipsum dolor sit amet.
 Lorem ipsum dolor sit amet.
 ```
 
-### Indentation: Variable
-
-[![Rationale](https://img.shields.io/badge/GitHub-Nested_lists-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#nested-lists)
+### Fixed indentation: Never
 
 Do not use fixed indentation, align the content with the previous line.
 
