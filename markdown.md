@@ -80,22 +80,6 @@ Lorem ipsum
 
 ## Lists
 
-### Ordered list style: Lazy period
-
-Use growing number followed by a period `.` to create ordered lists.
-
-```md
-1) Foo
-2) Bar
-```
-
-**After**
-
-```md
-1. Foo
-1. Bar
-```
-
 ### Unordered list style: Hyphen
 
 Use hyphens `-` to create unordered lists and nested lists. Asterisk is already
@@ -113,6 +97,25 @@ associated with highlights, and plus is not as common.
 ```md
 - Foo
 - Bar
+```
+
+### Ordered list style: Lazy
+
+Use fixed `1.` instead of growing numbers to create ordered lists. There should
+be two spaces after the period to better align with nested list items.
+
+```md
+1) Foo
+2) Bar
+   - Baz
+```
+
+**After**
+
+```md
+1.  Foo
+1.  Bar
+    - Baz
 ```
 
 ## Table
@@ -145,17 +148,17 @@ line should be 3 dashes and optional colon `:`.
 **Before**
 
 ```md
-| Column 1 | Column 2 |
-| :------- | -------: |
-| Foo      | Bar      |
+Column 1 | Column 2
+:------- | -------:
+Foo      | Bar
 ```
 
 **After**
 
 ```md
-| Column 1 | Column 2 |
-| :--- | ---: |
-| Foo | Bar |
+Column 1 | Column 2
+:--- | ---:
+Foo | Bar
 ```
 
 ## Formatting
@@ -200,28 +203,4 @@ Lorem ipsum dolor sit amet.
 # Heading
 
 Lorem ipsum dolor sit amet.
-```
-
-### Fixed indentation: Never
-
-Do not use fixed indentation, align the content with the previous line.
-
-**Before**
-
-```md
-1. Foo
-  - Bar
-
-> Foo
->> Bar
-```
-
-**After**
-
-```md
-1. Foo
-   - Bar
-
-> Foo
-> > Bar
 ```

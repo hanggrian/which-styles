@@ -61,8 +61,8 @@ Punctuate list items with a period only if they are complete sentences.
 - Lorem ipsum, dolor sit amet
 - Consectetur adipiscing elit
 
-1. Foo.
-1. Bar.
+1.  Foo.
+1.  Bar.
 ```
 
 **After**
@@ -71,8 +71,8 @@ Punctuate list items with a period only if they are complete sentences.
 - Lorem ipsum, dolor sit amet.
 - Consectetur adipiscing elit.
 
-1. Foo
-1. Bar
+1.  Foo
+1.  Bar
 ```
 
 ### Serial comma: Never
