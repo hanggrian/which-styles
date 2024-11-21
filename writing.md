@@ -53,13 +53,14 @@ the punctuations.
 
 ### Punctuate list item: Only sentence
 
-Punctuate list items with a period only if they are complete sentences.
+Punctuate list items only if they are more than one sentence.
 
 **Before**
 
 ```md
-- Lorem ipsum, dolor sit amet
-- Consectetur adipiscing elit
+- Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+  roots in a piece of classical Latin literature from 45 BC, making it over 2000
+  years old
 
 1.  Foo.
 1.  Bar.
@@ -68,8 +69,9 @@ Punctuate list items with a period only if they are complete sentences.
 **After**
 
 ```md
-- Lorem ipsum, dolor sit amet.
-- Consectetur adipiscing elit.
+- Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+  roots in a piece of classical Latin literature from 45 BC, making it over 2000
+  years old.
 
 1.  Foo
 1.  Bar
