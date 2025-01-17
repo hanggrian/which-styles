@@ -1,5 +1,22 @@
 # Writing style
 
+### Construction symbol: Slash
+
+Use a slash to separate two or more words that are closely related. Do not put
+whitespace between the slash.
+
+**Before**
+
+```md
+The cat-dog was chasing the mouse.
+```
+
+**After**
+
+```md
+The cat/dog was chasing the mouse.
+```
+
 ### Header letter: Sentence case
 
 Capitalize the first letter of the first word and proper nouns in headings.

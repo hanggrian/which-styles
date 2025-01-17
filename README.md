@@ -24,6 +24,7 @@ Vertical spacing | [1](markdown.md#vertical-spacing-1) | [![Rationale](https://i
 
 Style | Note | Rationale
 --- | --- | ---
+Construction symbol | [Slash](writing.md#construction-symbol-slash) | [![Rationale](https://img.shields.io/badge/AP-X_status-eb483b)](https://x.com/APStylebook/status/1134132921223266306/)
 Header letter | [Sentence case](writing.md#header-letter-sentence-case) | [![Rationale](https://img.shields.io/badge/AP-Capitalization-eb483b)](https://libguides.csusb.edu/APstylebook/capitalization/)
 Spell number | [1-10](writing.md#spell-number-1-10) | [![Rationale](https://img.shields.io/badge/AP-Numbers-eb483b)](https://libguides.csusb.edu/APstylebook/numbers/)
 <sub>**Punctuation**</sub>
