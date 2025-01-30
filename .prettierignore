@@ -1,0 +1,11 @@
+package-lock.json
+_site
+styles/just-the-docs-default.scss
+styles/just-the-docs-light.scss
+styles/just-the-docs-dark.scss
+scripts/vendor/lunr.min.js
+scripts/search-data.json
+scripts/zzzz-search-data.json
+scripts/just-the-docs.js
+*.md
+_includes/mermaid_config.js

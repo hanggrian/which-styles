@@ -1,0 +1,21 @@
+// https://m3.material.io/styles/color/static/baseline/
+
+$color-scheme: dark;
+$body-background-color: /*$grey-dk-300*/ #121212;
+$body-heading-color: $grey-lt-000;
+$body-text-color: $grey-lt-300;
+$link-color: /*$blue-000*/ #efb8c8; /* Primary */
+$link-color2: /*$blue-000*/ #492532; /* On primary */
+$nav-child-link-color: $grey-dk-000;
+$sidebar-color: /*$grey-dk-300*/ #241f21;
+$base-button-color: /*$grey-dk-250*/ #efb8c8;
+$btn-primary-color: /*$blue-200*/ #efb8c8;
+$code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+$code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+$feedback-color: darken($sidebar-color, 3%);
+$table-background-color: /*$grey-dk-250*/ #241f21;
+$search-background-color: /*$grey-dk-250*/ #241f21;
+$search-result-preview-color: $grey-dk-000;
+$border-color: $grey-dk-200;
+
+@import "./vendor/OneDarkJekyll/syntax"; // this is the one-dark-vivid atom syntax theme
