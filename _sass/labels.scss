@@ -35,3 +35,31 @@
   color: $grey-dk-200;
   background-color: $yellow-200;
 }
+
+.label-ap:not(g) {
+  background-color: rgb(255, 24, 24);
+}
+
+.label-pandoc:not(g) {
+  background-color: rgb(26, 26, 26);
+}
+
+.label-github:not(g) {
+  background-color: #181717;
+}
+
+.label-google:not(g) {
+  background-color: #4285f4;
+}
+
+.label-posix:not(g) {
+  background-color: #2580e5;
+}
+
+.label-commonmark:not(g) {
+  background-color: rgb(48, 48, 48);
+}
+
+.label-personal:not(g) {
+  background-color: #546e7a;
+}

@@ -21,7 +21,11 @@ if he was any smarter.&#8221; &mdash; *John Gotti*
 
 ## Extension letter
 
-[![Rationale](https://img.shields.io/badge/Google-Extensions-4285f4)](https://developers.google.com/style/filenames/#file-type-names)
+<a
+  class="label label-google"
+  href="https://developers.google.com/style/filenames/#file-type-names">
+  Google: Extensions
+</a>
 
 Refer to file type names as *uppercase,* but use **lowercase** for file
 extensions.
@@ -37,7 +41,7 @@ Attachment: company_profile.pdf
 
 ## Separate indices
 
-![Rationale](https://img.shields.io/badge/Personal-gray)
+<label class="label label-personal">Personal</label>
 
 When referencing a series of files, use a combination of the filename and index
 **without a separator.**
@@ -53,7 +57,11 @@ When referencing a series of files, use a combination of the filename and index
 
 ## Whitespace symbol
 
-[![Rationale](https://img.shields.io/badge/Google-Filenames-4285f4)](https://developers.google.com/style/filenames/#exceptions-for-consistency)
+<a
+  class="label label-google"
+  href="https://developers.google.com/style/filenames/#exceptions-for-consistency">
+  Google: Filenames
+</a>
 
 Use an **underscore** to separate words in a file name. Although hypens are more
 common, it is sometimes used to denote a range of values in a file name.

@@ -19,7 +19,11 @@ nav_order: 2
 
 ## Construction symbol
 
-[![Rationale](https://img.shields.io/badge/AP-Capitalization-eb483b)](https://libguides.csusb.edu/APstylebook/capitalization/)
+<a
+  class="label label-ap"
+  href="https://x.com/APStylebook/status/1134132921223266306/">
+  AP X status: Use slash
+</a>
 
 Use a **slash** to separate two or more words that are closely related. Do not
 put whitespace between the slash.
@@ -45,9 +49,51 @@ put whitespace between the slash.
   </table>
 </div>
 
+## Date format
+
+<a
+  class="label label-ap"
+  href="https://apstylebook.com/ask_the_editors/style_guidance#ask_dates">
+  AP Ask the Editor: Dates, times, eras
+</a>
+
+Use the following format when mentioning a date:
+
+- Month only: **January**
+- Month and year: **January 2020**
+- Month and day: **Jan. 1**
+- Month, day and year: **Jan. 1, 2020**
+
+<div class="code-example" markdown="1">
+  <table>
+    <thead>
+      <tr>
+        <th>Before</th>
+        <th>After</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Jan. 2016 was a cold month. January 2 was the coldest day of the
+          month.
+        </td>
+        <td>
+          January 2016 was a cold month. Jan. 2 was the coldest day of the
+          month.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## Header letter
 
-[![Rationale](https://img.shields.io/badge/AP-Capitalization-eb483b)](https://libguides.csusb.edu/APstylebook/capitalization/)
+<a
+  class="label label-ap"
+  href="https://libguides.csusb.edu/APstylebook/capitalization/">
+  AP Stylebook: Capitalization
+</a>
 
 Use **sentence case** for headers, capitalize only the first letter of the first
 word.
@@ -77,7 +123,11 @@ word.
 
 ## Spell number
 
-[![Rationale](https://img.shields.io/badge/AP-Numbers-eb483b)](https://libguides.csusb.edu/APstylebook/numbers/)
+<a
+  class="label label-ap"
+  href="https://libguides.csusb.edu/APstylebook/numbers/">
+  AP Stylebook: Numbers
+</a>
 
 Spell out number **one to nine** and use numerals for 10 and above.
 
@@ -104,9 +154,13 @@ Spell out number **one to nine** and use numerals for 10 and above.
 
 ## Punctuation
 
-### Emphasize punctuation
+<a
+  class="label label-ap"
+  href="https://libguides.csusb.edu/APstylebook/punctuation/">
+  AP Stylebook: Punctuation
+</a>
 
-[![Rationale](https://img.shields.io/badge/AP-Punctuation-eb483b)](https://libguides.csusb.edu/APstylebook/punctuation/)
+### Emphasize punctuation
 
 When highlighting a word or phrase with adjacent punctuations, also highlight
 the punctuations.
@@ -133,8 +187,6 @@ the punctuations.
 </div>
 
 ### Punctuate list item
-
-[![Rationale](https://img.shields.io/badge/AP-Punctuation-eb483b)](https://libguides.csusb.edu/APstylebook/punctuation/)
 
 Punctuate list items only if they are **more than one sentence.**
 
@@ -180,8 +232,6 @@ Punctuate list items only if they are **more than one sentence.**
 </div>
 
 ### Serial comma
-
-[![Rationale](https://img.shields.io/badge/AP-Punctuation-eb483b)](https://libguides.csusb.edu/APstylebook/punctuation/)
 
 Serial comma is **not** placed after the penultimate term. Exceptionally, comma
 can be placed when combining two separate contexts.

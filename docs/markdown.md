@@ -19,7 +19,11 @@ nav_order: 3
 
 ## Blockquote style
 
-[![Rationale](https://img.shields.io/badge/Pandoc-Block_quotations-080808)](https://pandoc.org/chunkedhtml-demo/8.4-block-quotations.html)
+<a
+  class="label label-pandoc"
+  href="https://pandoc.org/chunkedhtml-demo/8.4-block-quotations.html">
+  Pandoc: Block quotations
+</a>
 
 Use **lazy** form, where only the first line is prefixed with a blockquote
 character, subsequent lines are prefixed with indentation.
@@ -53,7 +57,11 @@ character, subsequent lines are prefixed with indentation.
 
 ## Emphasis style
 
-[![Rationale](https://img.shields.io/badge/GitHub-Styling_text-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#styling-text)
+<a
+  class="label label-github"
+  href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#styling-text">
+  GitHub: Styling text
+</a>
 
 Stylize text with **asterisks** while *underscores* act as subsequent
 highlights.
@@ -87,7 +95,11 @@ consectetur adipiscing elit.
 
 ## Fenced code style
 
-[![Rationale](https://img.shields.io/badge/GitHub-Quoting_code-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#quoting-code)
+<a
+  class="label label-github"
+  href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#quoting-code">
+  GitHub: Quoting code
+</a>
 
 Use **backticks** to create fenced code blocks, not the optional 4 spaces
 indentation.
@@ -125,7 +137,11 @@ git commit
 
 ## Header style
 
-[![Rationale](https://img.shields.io/badge/GitHub-Headings-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#headings)
+<a
+  class="label label-github"
+  href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#headings">
+  GitHub: Headings
+</a>
 
 **ATX headings** are preferred over Setext headings. Setext headings are long
 and do not support over 2 levels of headings.
@@ -160,7 +176,11 @@ Lorem ipsum
 
 ### Unordered list style
 
-[![Rationale](https://img.shields.io/badge/GitHub-Lists-181717)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#lists)
+<a
+  class="label label-github"
+  href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/#lists">
+  GitHub: Lists
+</a>
 
 Use **hyphens** to create unordered lists and nested lists. Asterisk is already
 associated with highlights, and plus is not as common.
@@ -194,7 +214,11 @@ associated with highlights, and plus is not as common.
 
 ### Ordered list style
 
-[![Rationale](https://img.shields.io/badge/Google-Use_lazy_numbering_for_long_lists-4285f4)](https://google.github.io/styleguide/docguide/style.html#use-lazy-numbering-for-long-lists)
+<a
+  class="label label-google"
+  href="https://google.github.io/styleguide/docguide/style.html#use-lazy-numbering-for-long-lists">
+  Google: Use lazy numbering for long lists
+</a>
 
 Use **fixed numbers** for ordered lists to avoid confusion with nested lists.
 There should be four spaces after the period to better align with nested list
@@ -233,7 +257,11 @@ items.
 
 ### Optional table pipe
 
-[![Rationale](https://img.shields.io/badge/Google-Prefer_lists_to_tables-4285f4)](https://google.github.io/styleguide/docguide/style.html#prefer-lists-to-tables)
+<a
+  class="label label-google"
+  href="https://google.github.io/styleguide/docguide/style.html#prefer-lists-to-tables">
+  Google: Prefer lists to tables
+</a>
 
 **Never** use the optional pipe at each side of the table.
 
@@ -268,7 +296,11 @@ Foo | Bar | Baz
 
 ### Wrap table cell
 
-[![Rationale](https://img.shields.io/badge/GitHub-Creating_a_table-181717)](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables/#creating-a-table)
+<a
+  class="label label-github"
+  href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables/#creating-a-table">
+  GitHub: Creating a table
+</a>
 
 **Always** wrap the cell content and pad with a space on each end. Column
 alignment line should be 3 dashes and optional colon.
@@ -306,7 +338,11 @@ Foo | Bar
 
 ### Max line length
 
-[![Rationale](https://img.shields.io/badge/Google-Links-4285f4)](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md#links)
+<a
+  class="label label-github"
+  href="https://github.com/google/styleguide/blob/gh-pages/docguide/style.md#links">
+  GitHub: Links
+</a>
 
 Keep characters in a line to a maximum of **80 characters.**
 
@@ -343,7 +379,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. [hyperlink](path/to/hyp
 
 ### Vertical spacing
 
-[![Rationale](https://img.shields.io/badge/Commonmark-Spacing-fff)](https://github.com/style-guides/Markdown/#spacing)
+<a
+  class="label label-github"
+  href="https://github.com/style-guides/Markdown/#spacing">
+  GitHub: Spacing
+</a>
 
 Separate headings, paragraph, and everything in between with **1 blank line.**
 Extra lines are ignored when rendered.

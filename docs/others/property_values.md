@@ -21,7 +21,7 @@ be one.&#8221; &mdash; *Clarence Darrow*
 
 ## Color code letter
 
-![Rationale](https://img.shields.io/badge/Personal-gray)
+<label class="label label-personal">Personal</label>
 
 **Lowercase** all letters in the color code to make it easy to distinguish
 between letters and numbers.
@@ -32,7 +32,7 @@ color: #ffaa33;
 
 ## Encoding letter
 
-![Rationale](https://img.shields.io/badge/Personal-gray)
+<label class="label label-personal">Personal</label>
 
 **Uppercase** all letters in the encoding to adhere to the standard.
 
