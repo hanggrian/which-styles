@@ -6,9 +6,10 @@ description: "Personal documentation and writing styles"
 permalink: /
 ---
 
-# Which styles should I use?
+# Which writing styles should I follow?
 {: .fs-9 }
 
 ---
 
-Writing styles and formatting guidelines.
+There are so many ways to write Markdown. This is a personal preference list of
+writing styles that adhere to CommonMark and Associated Press Stylebook.

@@ -21,7 +21,11 @@ specific.&#8221; &mdash; *Lily Tomlin*
 
 ## Insert final newline
 
-[![Rationale](https://img.shields.io/badge/POSIX-Line-fff)](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206)
+<a
+  class="label label-posix"
+  href="https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206">
+  POSIX: Line
+</a>
 
 **Always** end a file with a newline character, a common practice in Unix
 systems.
@@ -33,7 +37,11 @@ Lorem ipsum.
 
 ## Trim trailing whitespace
 
-[![Rationale](https://img.shields.io/badge/Commonmark-Hard_line_breaks-fff)](https://spec.commonmark.org/0.20/#hard-line-breaks)
+<a
+  class="label label-commonmark"
+  href="https://spec.commonmark.org/0.20/#hard-line-breaks">
+  CommonMark: Hard line breaks
+</a>
 
 **Never** put trailing whitespace at the end of a line.
 

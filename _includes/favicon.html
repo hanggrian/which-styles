@@ -14,10 +14,27 @@
 {%- endcomment -%}
 
 {% for file in site.static_files %}
-  {% if file.path == site.favicon_ico or file.path == '/favicon.ico' %}
+  {% if
+    file.path == site.favicon_ico or
+      file.path == '/favicon-dark.ico' or
+      file.path == '/favicon-light.ico'
+  %}
     {% assign favicon = true %}
   {% endif %}
 {% endfor %}
 {% if favicon %}
-  <link rel="icon" href="{{ site.favicon_ico | default: '/favicon.ico' | relative_url }}" type="image/x-icon">
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="{{ site.favicon_ico | default: '/favicon-dark.ico' | relative_url }}"/>
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="{{ site.favicon_ico | default: '/favicon-light.ico' | relative_url }}"
+    media="(prefers-color-scheme: light)"/>
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="{{ site.favicon_ico | default: '/favicon-dark.ico' | relative_url }}"
+    media="(prefers-color-scheme: dark)"/>
 {% endif %}
