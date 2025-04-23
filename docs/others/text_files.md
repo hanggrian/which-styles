@@ -7,8 +7,9 @@ nav_order: 3
 # Text files
 {: .no_toc }
 
-&#8220;I always wanted to be somebody, but now I realize I should have been more
-specific.&#8221; &mdash; *Lily Tomlin*
+&ldquo;I always wanted to be somebody, but now I realize I should have been more
+specific.&rdquo;
+&mdash; *Lily Tomlin*
 {: .fs-6 .fw-300 }
 
 ## Table of contents

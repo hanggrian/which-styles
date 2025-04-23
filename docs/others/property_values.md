@@ -7,8 +7,9 @@ nav_order: 2
 # Property values
 {: .no_toc }
 
-&#8220;I am a friend of the workingman, and I would rather be his friend, than
-be one.&#8221; &mdash; *Clarence Darrow*
+&ldquo;I am a friend of the workingman, and I would rather be his friend, than
+be one.&rdquo;
+&mdash; *Clarence Darrow*
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -38,4 +39,14 @@ color: #ffaa33;
 
 {% highlight html %}
 <meta charset="UTF-8">
+{% endhighlight %}
+
+## URL format
+
+<label class="label label-personal">Personal</label>
+
+End URLs with a trailing slash to indicate that the URL is a directory.
+
+{% highlight html %}
+<a href="https://example.com/">
 {% endhighlight %}

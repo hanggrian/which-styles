@@ -6,7 +6,8 @@ nav_order: 3
 # Markdown
 {: .no_toc }
 
-&#8220;Easy reading is damn hard writing.&#8221; &mdash; *Nathaniel Hawthorne*
+&ldquo;Easy reading is damn hard writing.&rdquo;
+&mdash; *Nathaniel Hawthorne*
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -259,8 +260,8 @@ items.
 
 <a
   class="label label-google"
-  href="https://google.github.io/styleguide/docguide/style.html#prefer-lists-to-tables">
-  Google: Prefer lists to tables
+  href="https://google.github.io/styleguide/docguide/style.html#tables">
+  Google: Tables
 </a>
 
 **Never** use the optional pipe at each side of the table.

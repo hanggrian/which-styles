@@ -7,4 +7,9 @@ nav_order: 4
 
 ---
 
-Date formats, file names and other miscellaneous topics.
+<img
+  width="640"
+  src="../../images/others.jpg"
+  alt="You know, this could be a really positive experience for you guys."/>
+
+Other topics including date formats and file names.

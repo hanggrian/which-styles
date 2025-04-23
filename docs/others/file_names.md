@@ -7,8 +7,9 @@ nav_order: 1
 # File names
 {: .no_toc }
 
-&#8220;If you think your boss is stupid, remember: You wouldn&#8217;t have a job
-if he was any smarter.&#8221; &mdash; *John Gotti*
+&ldquo;If you think your boss is stupid, remember: You wouldn&#8217;t have a job
+if he was any smarter.&rdquo;
+&mdash; *John Gotti*
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -44,15 +45,15 @@ Attachment: company_profile.pdf
 <label class="label label-personal">Personal</label>
 
 When referencing a series of files, use a combination of the filename and index
-**without a separator.**
+**with a separator.**
 
 {% highlight plaintext %}
-├ links
-│ ├ graph1_1.svg
-│ ├ graph1_2.svg
-│ └ graph1_1_1.svg
-├ blog1.md
-└ blog1_1.md
+├─ links
+│  ├─ graph_1.svg
+│  ├─ graph_2.svg
+│  └─ graph2_1.svg
+├─ blog_1.md
+└─ blog_2.md
 {% endhighlight %}
 
 ## Whitespace symbol
@@ -70,6 +71,6 @@ This rule can be ignored if a specific platform or tool already has a naming
 convention.
 
 {% highlight plaintext %}
-├ avoiding_cliches.jd
-└ quick_lesson1-4.md
+├─ avoiding_cliches.jd
+└─ quick_lesson1-4.md
 {% endhighlight %}

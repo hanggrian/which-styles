@@ -6,7 +6,8 @@ nav_order: 2
 # Writing
 {: .no_toc }
 
-&#8220;You can fix anything but a blank page.&#8221; &mdash; *Nora Roberts*
+&ldquo;You can fix anything but a blank page.&rdquo;
+&mdash; *Nora Roberts*
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -16,6 +17,39 @@ nav_order: 2
 {:toc}
 
 ---
+
+## Abbreviation in parentheses
+
+<a
+  class="label label-ap"
+  href="https://x.com/APStylebook/status/1503764242851414019/">
+  AP X status: Don't follow the full name of an organization
+</a>
+
+Use abbreviations only on second and subsequent references.
+
+<div class="code-example" markdown="1">
+  <table>
+    <thead>
+      <tr>
+        <th>Before</th>
+        <th>After</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          The topic for today is Artificial Intelligence (AI). AI is a rapidly
+          growing field.
+        </td>
+        <td>
+          The topic for today is artificial intelligence. AI is a rapidly
+          growing field.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Construction symbol
 
@@ -180,6 +214,37 @@ the punctuations.
         </td>
         <td>
           There was a <b>quick brown fox,</b> it jumps over the lazy dog.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Parentheses
+
+Use period only if the content inside parentheses is a complete sentence.
+
+<div class="code-example" markdown="1">
+  <table>
+    <thead>
+      <tr>
+        <th>Before</th>
+        <th>After</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          The best video game of 2017 was Horizon Zero Dawn. (Arguably)
+          <br>
+          <br>
+          The best video game of 2017 was Horizon Zero Dawn (though others might say Breath of the Wild).
+        </td>
+        <td>
+          The best video game of 2017 was Horizon Zero Dawn (arguably).
+          <br>
+          <br>
+          The best video game of 2017 was Horizon Zero Dawn. (Though others might say Breath of the Wild.)
         </td>
       </tr>
     </tbody>

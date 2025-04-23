@@ -11,5 +11,10 @@ permalink: /
 
 ---
 
+<img
+  width="640"
+  src="images/home.png"
+  alt="If those kids could read they'd be very upset."/>
+
 There are so many ways to write Markdown. This is a personal preference list of
 writing styles that adhere to CommonMark and Associated Press Stylebook.
