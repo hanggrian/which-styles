@@ -64,11 +64,8 @@ When referencing a series of files, use a combination of the filename and index
   Google: Filenames
 </a>
 
-Use an **underscore** to separate words in a file name. Although hypens are more
-common, it is sometimes used to denote a range of values in a file name.
-
-This rule can be ignored if a specific platform or tool already has a naming
-convention.
+Use an **underscore** to separate words when the file is part of source code.
+**Hyphens** are reserved for files on the web.
 
 {% highlight plaintext %}
 ├─ avoiding_cliches.jd

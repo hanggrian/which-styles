@@ -51,7 +51,7 @@ Use abbreviations only on second and subsequent references.
   </table>
 </div>
 
-## Construction symbol
+## Delimiter symbols
 
 <a
   class="label label-ap"
@@ -59,8 +59,9 @@ Use abbreviations only on second and subsequent references.
   AP X status: Use slash
 </a>
 
-Use a **slash** to separate two or more words that are closely related. Do not
-put whitespace between the slash.
+### Construction
+
+Use a **slash** to separate two or more words that are closely related.
 
 <div class="code-example" markdown="1">
   <table>
@@ -83,20 +84,9 @@ put whitespace between the slash.
   </table>
 </div>
 
-## Date format
+### Space around delimiter
 
-<a
-  class="label label-ap"
-  href="https://apstylebook.com/ask_the_editors/style_guidance#ask_dates">
-  AP Ask the Editor: Dates, times, eras
-</a>
-
-Use the following format when mentioning a date:
-
-- Month only: **January**
-- Month and year: **January 2020**
-- Month and day: **Jan. 1**
-- Month, day and year: **Jan. 1, 2020**
+Do not put whitespace between delimiters.
 
 <div class="code-example" markdown="1">
   <table>
@@ -109,12 +99,10 @@ Use the following format when mentioning a date:
     <tbody>
       <tr>
         <td>
-          Jan. 2016 was a cold month. January 2 was the coldest day of the
-          month.
+          Join us from 9 - 11 a.m.
         </td>
         <td>
-          January 2016 was a cold month. Jan. 2 was the coldest day of the
-          month.
+          Join us from 9-11 a.m.
         </td>
       </tr>
     </tbody>
@@ -149,37 +137,6 @@ word.
         <td>
           <h3>Man bites dog</h3>
           <p>News flash, a man bites a dog.</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-## Spell number
-
-<a
-  class="label label-ap"
-  href="https://libguides.csusb.edu/APstylebook/numbers/">
-  AP Stylebook: Numbers
-</a>
-
-Spell out number **one to nine** and use numerals for 10 and above.
-
-<div class="code-example" markdown="1">
-  <table>
-    <thead>
-      <tr>
-        <th>Before</th>
-        <th>After</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          The 2 cats were chasing at least fifteen mice.
-        </td>
-        <td>
-          The two cats were chasing at least 15 mice.
         </td>
       </tr>
     </tbody>
@@ -318,6 +275,108 @@ can be placed when combining two separate contexts.
         <td>
           <p>Science, math, and reading and writing.</p>
           <p>I was breastfed, but my family members were fed formula.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+## Spell number
+
+<a
+  class="label label-ap"
+  href="https://libguides.csusb.edu/APstylebook/numbers/">
+  AP Stylebook: Numbers
+</a>
+
+Spell out number **one to nine** and use numerals for 10 and above.
+
+<div class="code-example" markdown="1">
+  <table>
+    <thead>
+      <tr>
+        <th>Before</th>
+        <th>After</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          The 2 cats were chasing at least fifteen mice.
+        </td>
+        <td>
+          The two cats were chasing at least 15 mice.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+## Time and date
+
+<a
+  class="label label-ap"
+  href="https://apstylebook.com/ask_the_editors/style_guidance#ask_dates">
+  AP Ask the Editor: Dates, times, eras
+</a>
+
+### Time format
+
+Use the following format when mentioning a time:
+
+- Hour only: **6**
+- Hour and minute: **6:30**
+- Hour, minute and period: **6:30 a.m.**
+
+<div class="code-example" markdown="1">
+  <table>
+    <thead>
+      <tr>
+        <th>Before</th>
+        <th>After</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          The event will begin with a social hour and cash bar, followed by
+          dinner at six o'clock PM.
+        </td>
+        <td>
+          The event will begin with a social hour and cash bar, followed by
+          dinner at 6 p.m.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Date format
+
+Use the following format when mentioning a date:
+
+- Month only: **January**
+- Month and year: **January 2020**
+- Month and day: **Jan. 1**
+- Month, day and year: **Jan. 1, 2020**
+
+<div class="code-example" markdown="1">
+  <table>
+    <thead>
+      <tr>
+        <th>Before</th>
+        <th>After</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Jan. 2016 was a cold month. January 2 was the coldest day of the
+          month.
+        </td>
+        <td>
+          January 2016 was a cold month. Jan. 2 was the coldest day of the
+          month.
         </td>
       </tr>
     </tbody>
